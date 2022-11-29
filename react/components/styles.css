@@ -1,0 +1,49 @@
+.quick__name {
+  text-align: center;
+}
+
+.quick__form {
+  margin: 0 auto;
+  align-content: center;
+  width: 500px;
+}
+
+.quick__inputext {
+  margin: 1rem;
+  border-radius: 0.2rem;
+  border: 1px #b3b1b1 solid;
+  padding: 0.5rem;
+}
+
+.quick__input {
+  background-color: #ffffff;
+  color: #DD0021;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  width: 80%;
+  border: 1px solid #DD0021;
+  margin-top: 1rem;
+}
+
+.quick__input:hover {
+  background-color: #DD0021;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .quick__input {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .quick__form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .quick__label {
+    width: 80%;
+  }
+}
